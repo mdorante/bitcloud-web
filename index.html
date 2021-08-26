@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!--  css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+
+    <title>Bit Cloud</title>
+  </head>
+
+  <body>
+    <div id="navDiv" class="navbar bg-dark">
+      <div class="container flex">
+        <h1 class="logo">Bit Cloud</h1>
+        <nav>
+          <button id="darkModeBtn" class="btn btn-mid">Modo Oscuro</button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Display -->
+    <section id="displaySection" class="display bg-light">
+      <div id="displayDiv" class="container grid" >
+        <div id="headerDiv" class="display-text">
+          <h1>Bit Cloud IaaS</h1>
+          <p>
+            Somos una plataforma moderna, eficiente, escalable y automatizable
+            para deployar todo tipo de aplicaciones. Sea una Web App, API, SSR o
+            un sitio web estático, somos la plataforma ideal!
+          </p>
+        </div>
+
+        <div id="formDiv" class="display-form box bg-light">
+          <h2>Iniciar Sesion</h2>
+          <form id="formUser">
+            <div class="form-control">
+              <input
+                id="inputUsername"
+                type="text"
+                name="username"
+                placeholder="Nombre de Usuario"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                id="inputPass"
+                type="text"
+                name="password"
+                placeholder="Contraseña"
+                required
+              />
+            </div>
+            <input
+              id="submitUser"
+              type="submit"
+              value="Ingresar"
+              class="btn btn-primary"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="statsSection" class="stats bg-light">
+      <div class="container">
+        <div class="grid grid-3 text-center margin-top-bottom-4">
+          <div>
+            <i class="fas fa-rocket fa-3x"></i>
+            <h3>1.434.569</h3>
+            <p class="text-primary">Deploys</p>
+          </div>
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>362 TB</h3>
+            <p class="text-primary">Data hosteada</p>
+          </div>
+          <div>
+            <i class="fas fa-user fa-3x"></i>
+            <h3>20.825</h3>
+            <p class="text-primary">Usuarios Registrados</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Languages  -->
+    <section id="langSection" class="languages bg-light hidden">
+      <h2 class="medium text-center margin-top-bottom-2">
+        Si deseas utilizar nuestra infraestructura de manera automatizada, puedes usar nuestras SDK.
+      </h2>
+      <div class="container flex">
+        <div class="box bg-primary">
+          <h4>Node.js</h4>
+          <img src="images/node.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>Python</h4>
+          <img src="images/python.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>C#</h4>
+          <img src="images/csharp.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>Ruby</h4>
+          <img src="images/ruby.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>PHP</h4>
+          <img src="images/php.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>Scala</h4>
+          <img src="images/scala.png" alt="" />
+        </div>
+        <div class="box bg-primary">
+          <h4>Clojure</h4>
+          <img src="images/clojure.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-mid padding-4">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Bit Cloud</h1>
+          <p>by Manuel Dorante</p>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <div class="social">
+          <a href="https://twitter.com/mdorante10"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/manueledg/"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://github.com/mdorante"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
