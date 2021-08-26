@@ -1,6 +1,6 @@
 # bitcloud-web
 
-HTML + CSS + JS Responsive Website with login featur and a light/dark mode switch.
+HTML + CSS + JS Responsive Website with login feature and a light/dark mode switch.
 
 Only users from https://jsonplaceholder.typicode.com/users can log in using their username and their user id for password.
 
